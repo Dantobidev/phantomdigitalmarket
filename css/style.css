@@ -28,7 +28,7 @@ header{
 
 }
 .banner{
- background-image: url('/images/My-redeemer-lives-edited.jpg');
+ background-image: url('../images/My-redeemer-lives-edited.jpg');
  background-size: cover;
  height:400px;
  
