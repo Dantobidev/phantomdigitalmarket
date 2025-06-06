@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+header{
+    background:linear-gradient(90deg, #0d47a1  ,#42a5f5);
+    color:white;
+    font-size: 24px;
+    padding: auto;
+    text-align: left;
+    width: 100%; 
+    position:fixed;
+}
+.two-column-grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap:20px;
+}
+ a{
+    
+    color:white;
+    text-decoration: none;
+    padding-right:30px;
+    padding-top:20px;
+    padding-bottom:40px;
+
+
+}
+.banner{
+ background-image: url('/images/My-redeemer-lives-edited.jpg');
+ background-size: cover;
+ height:400px;
+ 
+}
+.logo-ff{
+    padding-top: 70px;
+    width: auto;
+    padding-left: 400px;
+    background: linear-gradient( 90deg, #0000ff ,#ff7b00);
+}
+.dd-text{
+    padding-top: 10px;
+    color: white;
+    text-shadow: 2px 2px 7px #ff7b00;
+}
+.logo{
+    display: flex;
+    text-decoration: none;
+    justify-content: start;
+}
+.logo img {
+    width:70px;
+    padding-right: 5px;
+    padding-left: 50px;
+}
+
+.nav-menu{ 
+    color:white;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    justify-content: end;
+}
+
+.nav-menu a{
+    
+    color:white;
+    text-decoration: none;
+    padding-right:30px;
+    padding-top:20px;
+    padding-bottom:20px;
+
+
+}
+.three-column-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap:20px;
+}
+#main-content{
+    color: #333333;
+    background-color:#f5f5f5 ;
+    padding:auto;
+    font-size: 20px;
+    width: 100%;
+}
+.about-us{
+    color: black;
+     background:#ffffff;
+    
+    text-align: center;
+     margin: auto;
+     text-transform: capitalize;
+     padding-top: 70px;
+}
+.services{
+    color: #0d47a1;
+       background:#e3f2fd ;
+     padding-top: 70px;
+    border: 1px solid #90caf9;
+    text-align: center;
+     margin: auto;
+    text-transform: capitalize;
+
+}
+.two-column-grid-tes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 90px;
+}
+.testimonials{
+    color: #666666 ;
+     background:#ffffff;
+    padding-top: 70px;
+    text-align: center;
+     margin: auto;
+     padding: 15px;
+}
+.contactus{
+    color: #1e88e5;
+    background:#bbdefb ;
+     padding: 70px 70px;
+    text-justify: 30px;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: auto;
+
+}
+form{
+    color: black;
+    padding-top:50px;
+
+}
+.info{
+    padding-top: 50px;
+}
+.text{
+    line-height:52px;
+    text-transform: none;
+}
+footer{
+    color:#fff;
+    background-color: #0d47a1 ;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+     padding-top: 20px;
+     height: 40px;
+    width: 100%;
+}
+.ftr:hover{
+    color:rgb(255, 123, 0) ;
+    background-color: #0000ff;
+}
+
+.nav-menu-ftr{ 
+    color:white;
+    font-size: 20px;
+    font-weight: 40px;
+    text-transform: capitalize;
+    display: grid;
+    width: 100%;
+    text-decoration: none;
+    justify-content: start;
+    padding: 2px;
+}
+.nav-menu a{
+    
+    color:white;
+    text-decoration: none;
+
+}
+.sub-text-ftr{
+    margin:5px;
+    line-height: 30px;
+    font-size: 25px;
+    text-align: left;
+}
+.logo-ftr img {
+    width: 500px;
+}
+/* .footer a{
+    color: #3ddf1c; 
+ } */
+.title h1{
+    font-size: 50px;
+    text-align: center;
+    background-color:white;
+}
+
+input[type="text"]{
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: tahoma;
+    border-radius:3px;
+    border:1px solid #CCC;
+    height: 40px;
+    width:400px;
+    padding:3px;
+    margin:10px;
+}
+input[type="email"]{
+    color: #0717fc;
+    font-size: 20px;
+    font-family: tahoma;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 40px;
+    width:400px;
+    padding:3px;
+    margin:10px;
+}
+input[type="number"]{
+    color: #3ddf1c;
+    font-size: 20px;
+    font-family: verdana;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 40px;
+    width:400px;
+    padding:3px;
+    margin:10px;
+}
+textarea{
+    width:500px;
+    height: 300px;
+    margin:10px;
+    padding:5px;
+    border-radius: 4pt;
+    border: 0px;
+    resize: none;
+
+}
+
+input[type="submit"]{
+    background-color:#ffffff;
+    color: #032c4e ;
+    font-family: tahoma;
+    border-radius: 3px;
+    border:0px;
+    height: 50px;
+    width: 100px;
+    padding: 3px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+input[type="submit"]:hover{
+     color: rgb(253, 253, 253);
+    background-color: black;
+}
+label{
+margin: 10px;
+
+}
+.heading{
+text-align: left;
+font-size: 24pt;
+font-weight: bold;
+}
+.sub-text{
+    margin:5px;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: left;
+}
+h1{
+    font-size: 42pt;
+
+}
+.about-us img{
+ width:60%;
+}
+.desc{
+    margin-top:20px;
+    
+}
+
+.cta-btn:hover{
+    color: rgb(253, 253, 253);
+    background-color: black;
+}
+.cta-btn{
+    color:white;
+    background-color: #0000ff;
+    width: auto;
+    height: 190px;
+    border-radius: 20px;
+
+    font-weight: bold;
+    padding: 12px;
+    margin-top:120pt;
+    
+}
